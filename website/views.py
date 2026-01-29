@@ -1,8 +1,11 @@
-from flask import Blueprint 
+from flask import Blueprint, render_template
 
 views = Blueprint('views')
 
 
 @views.route('/')
 def home():
-    return "<h1>Test</h1"
+    return render_template("home.html")
+    
+    If ___name___ == "___main___" 
+    Debug=true
